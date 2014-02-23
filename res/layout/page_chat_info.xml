@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageChatInfo xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbarStyle="outsideOverlay"    
+	android:paddingTop="56dp"
+	android:paddingBottom="16dp"
+	android:clipToPadding="false"	
+	android:fadingEdge="none"
+	android:fastScrollEnabled="true"
+	android:scrollbarThumbVertical="@drawable/fastscroll_thumb_default_holo"	
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	    
+	<LinearLayout 
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp" 
+		android:layout_marginTop="8dp"
+		android:layout_gravity="center_horizontal"		
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <include layout="@layout/item_info" />
+	    <include layout="@layout/item_info_ex" />
+
+		<TextView
+		    android:id="@+id/text_members"
+		    style="@style/settingsHeader"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+		
+	    <LinearLayout
+	        android:id="@+id/list_users"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" />		
+		
+		<Button
+		    android:id="@+id/btn_add"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="8dp"
+		    android:drawablePadding="8dp"
+		    android:gravity="left|center_vertical"
+		    android:background="@drawable/btn_option"
+		    android:drawableLeft="@drawable/ic_add_member"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:text="@string/btn_add_member"/>
+	    
+		<Button
+		    android:id="@+id/btn_delete"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:background="@drawable/btn_gray"
+		    android:text="@string/btn_info_chat_delete" />
+
+	</LinearLayout>
+</com.xproger.arcanum.PageChatInfo>
+	

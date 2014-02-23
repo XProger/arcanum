@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageGroupNew xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"    
+    android:orientation="vertical" >
+    
+    <com.xproger.arcanum.BubbleEdit
+        android:id="@+id/edit"
+        android:paddingTop="64dp"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"  
+		android:bufferType="spannable"   
+		android:autoLink="none"
+    	android:hint="@string/hint_group"  
+        android:orientation="horizontal" />        
+
+    <ListView
+        android:id="@+id/list"
+		android:fadingEdge="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    
+
+</com.xproger.arcanum.PageGroupNew>

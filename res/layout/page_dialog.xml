@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageDialog xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+    
+    <ImageView
+        android:id="@+id/wallpaper"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#d6e4ef"
+	    android:scaleType="centerCrop"/>
+            
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">	         
+	    <ListView
+	        android:id="@+id/dialog_msgs"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginBottom="-4dp"
+	        android:layout_weight="1"
+	        android:focusable="false"
+	    	android:background="@android:color/transparent"    
+	        android:cacheColorHint="#00000000"
+	        android:divider="@null"
+	        android:dividerHeight="0dp"
+	        android:longClickable="true"
+			android:paddingTop="56dp"
+	        android:paddingBottom="5dp"
+	        android:choiceMode="multipleChoice"
+			android:clipToPadding="false"		        
+	        android:stackFromBottom="true"
+	        android:scrollbarStyle="outsideOverlay"
+	        android:fastScrollEnabled="false"
+	        android:fadingEdge="none"   
+	        android:transcriptMode="normal" />  
+	        
+		<TextView
+		    android:id="@+id/empty"	    
+		    android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"	  
+	        android:layout_marginBottom="-4dp"
+	        android:focusable="false"        
+	        android:textAppearance="@android:style/TextAppearance.Large"
+	        android:background="@android:color/transparent"
+	        android:gravity="center"
+		    android:textColor="#9fb1bf"	    
+		    android:visibility="gone"/>    
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom"
+	        android:background="@drawable/compose_panel" >
+	
+	        <CheckBox
+	            android:id="@+id/btn_smile"
+	            android:layout_width="44dp"
+	            android:layout_height="match_parent"
+	            android:focusable="false"
+	            android:paddingRight="8dp"
+			    android:button="@null"
+	            android:drawableRight="@drawable/check_smile" />
+	
+	        <EditText
+	            android:id="@+id/edit_msg"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="8dp"
+	            android:layout_marginTop="8dp"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:inputType="textMultiLine"
+	            android:maxLines="4" >
+	        </EditText>
+	
+	        <Button
+	            android:id="@+id/btn_send"
+	            android:layout_width="28dp"
+	            android:layout_height="28dp"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="16dp"
+	            android:focusable="false"
+	            android:contentDescription="@string/hint_send"
+	            android:background="@drawable/btn_send" />
+	    </LinearLayout>
+    </LinearLayout>
+
+</com.xproger.arcanum.PageDialog>

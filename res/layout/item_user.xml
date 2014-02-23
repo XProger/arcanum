@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.DialogItem xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="8dp">
+	              
+    <com.xproger.arcanum.RoundedImageView
+        android:id="@+id/picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/none"
+        android:src="@drawable/user_placeholder_blue" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/picture"
+        android:text="@string/test_name"
+        android:ellipsize="end"
+        android:maxLines="1"        
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/picture"
+        android:layout_below="@id/title"
+        android:text="@string/test_msg"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#808080" />            
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/check_box"
+		android:button="@null"	
+		android:clickable="false"
+		android:focusable="false"/>
+    
+</com.xproger.arcanum.DialogItem>

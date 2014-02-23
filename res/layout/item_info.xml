@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+	<ImageView
+        android:id="@+id/picture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:onClick="onMenuClick"
+        android:src="@drawable/user_placeholder"
+        android:contentDescription="@string/none" />
+	
+	<ImageView
+        android:id="@+id/spinner"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignRight="@id/picture"
+	    android:layout_alignBottom="@id/picture"
+        android:clickable="false"
+        android:src="@drawable/photo_edit_spinner"
+        android:contentDescription="@string/none" />	
+	
+    <EditText
+        android:id="@+id/text_title" 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_toRightOf="@id/picture"
+	   	android:layout_centerVertical="true"
+	   	android:layout_marginLeft="8dp"
+	    android:maxLines="4"
+	    android:hint="@string/hint_group_title"
+        android:inputType="textMultiLine|textPersonName"
+        android:visibility="gone" />
+	
+	<LinearLayout
+	    android:id="@+id/lay_name"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_toRightOf="@id/picture"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="8dp"
+	    android:orientation="vertical"	    
+	    android:visibility="gone">
+	    <EditText
+	        android:id="@+id/text_first_name" 
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:singleLine="true"
+		    android:hint="@string/hint_first_name"
+	        android:inputType="textPersonName" />
+	    <EditText
+	        android:id="@+id/text_last_name" 
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:singleLine="true"
+		    android:hint="@string/hint_last_name"
+	        android:inputType="textPersonName" />
+	</LinearLayout>	
+		    
+	<LinearLayout
+	    android:id="@+id/lay_info"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="8dp"
+	    android:layout_toRightOf="@id/picture"
+	    android:orientation="horizontal" >
+    		    		    
+	    <LinearLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical" >			    					    
+		    <TextView
+		        android:id="@+id/text_name"
+		        android:layout_marginRight="32dp"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+				android:width="120dp"
+		        android:textAppearance="@android:style/TextAppearance.Medium"
+				android:maxLines="2"
+				android:scrollHorizontally="false"/>				
+		    <TextView
+		        android:id="@+id/text_status"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:typeface="monospace"
+		        android:textColor="@color/vk_blue"
+		        android:textAppearance="@android:style/TextAppearance.Small"/>
+		</LinearLayout>
+			    				    
+		<Button
+		    android:id="@+id/btn_edit"
+		    android:layout_width="72dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:layout_gravity="right"
+		    android:paddingRight="4dp"
+		    android:background="@drawable/btn_option"
+		    android:drawableLeft="@drawable/divider_vert"
+		    android:drawableRight="@drawable/ic_edit" />
+	    
+	</LinearLayout>
+
+</RelativeLayout>
+	
+	

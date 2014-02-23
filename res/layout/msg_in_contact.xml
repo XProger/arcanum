@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.xproger.arcanum.MessageView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"    
+    android:clickable="true"
+    android:background="@drawable/msg_selector"	    
+	android:paddingLeft="4dp"
+	android:paddingTop="2dp"
+	android:paddingBottom="2dp">
+	        
+    <RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:duplicateParentState="true"        
+	    android:background="@drawable/bmsg_in">
+
+		<com.xproger.arcanum.RoundedImageView
+			android:id="@+id/msg_media"
+			android:layout_width="54dp"
+			android:layout_height="54dp"
+			android:src="@drawable/user_placeholder_blue" />    
+        
+        <com.xproger.arcanum.MsgTextView
+			android:id="@+id/msg_text"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:layout_toRightOf="@id/msg_media"
+	        android:textColor="#000000"
+			android:singleLine="false"
+			android:textAppearance="?android:attr/textAppearanceMedium" />   
+        
+		<TextView
+			android:id="@+id/msg_status"
+			android:layout_alignRight="@id/msg_text"
+			android:layout_below="@id/msg_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	        android:layout_marginBottom="6dp"	
+			android:singleLine="true"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>				
+		
+		<ImageView
+			android:id="@+id/btn_contact_add"		
+			style="@style/buttonMenu"	
+		    android:layout_toRightOf="@id/msg_text"
+		    android:layout_marginLeft="8dp"
+		    android:layout_centerVertical="true"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:src="@drawable/ic_ab_add_member" />   		
+					
+    </RelativeLayout>	   	    
+	
+</com.xproger.arcanum.MessageView>

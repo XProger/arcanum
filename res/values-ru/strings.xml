@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arcanum</string>
+    
+    <string name="none"></string>
+    <string name="auth_title_phone">Ваш номер телефона</string>
+    <string name="auth_title_code">Ваш код</string>
+    <string name="auth_title_name">Ваше имя</string>
+    <string name="auth_hint_phone">Пожалуйста выберите Ваш регион и введите номер телефона.</string>
+    <string name="auth_hint_code">Мы выслали SMS с кодом активации на Ваш номер %s.</string>
+     
+    <string name="auth_hint_call">Мы позвоним Вам через %s.</string>
+     
+    <string name="auth_hint_name">Введите своё имя и добавьте профильную фотогрфию.</string>
+    <string name="auth_btn_next">Далее</string>
+    <string name="auth_lbl_code">Код</string>
+        
+    <string name="page_title_dialogs">Arcanum</string>
+    <string name="page_title_contacts">Выберите контакт</string>
+    <string name="page_title_settings">Настройки</string>
+    <string name="page_title_share_location">Отправить карту</string>
+	<string name="page_title_location">Карта</string>    
+    <string name="page_title_group">Новая группа</string>
+	<string name="page_title_user_info">Информация о контакте</string>
+	<string name="page_title_chat_info">Информация о группе</string>
+	<string name="page_title_forward">Переслать сообщение</string>
+	<string name="page_title_share">Передать контакт</string>
+	<string name="page_title_media">Просмотр вложений</string>  
+	<string name="page_title_wallpaper">Фон чата</string>
+
+	<string name="chat_btn_settings">Настройки</string>
+
+    <string name="btn_compose_contact">Написать</string>
+    <string name="btn_compose_group">Новая группа</string>
+    
+    <string name="settings_header_phone">ВАШ НОМЕР ТЕЛЕФОНА</string>
+    <string name="settings_header_options">НАСТРОЙКИ</string>
+    <string name="settings_header_support">ПОДДЕРЖКА</string>
+    
+    <string name="settings_header_notify_message">УВЕДОМЛЕНИЯ СООБЩЕНИЙ</string>
+    <string name="settings_header_notify_group">УВЕДОМЛЕНИЯ ГРУПП</string>
+    <string name="settings_header_notify_inapp">ВНУТРЕННИЕ УВЕДОМЛЕНИЯ</string>
+    <string name="settings_header_notify_reset">СБРОС</string>
+    
+    <string name="settings_opt_save_media">Сохранять вложения</string>
+    <string name="settings_opt_notify">Оповещения и звуки</string>
+    <string name="settings_opt_blocked">Чёрный список</string>
+    <string name="settings_opt_wallpaper">Выбрать фон чата</string>
+    <string name="settings_opt_question">Задать вопрос</string>
+    
+    <string name="settings_opt_msg_alert">Уведомлять</string>
+    <string name="settings_opt_msg_prev">Предпросмотр</string>
+    
+    <string name="settings_opt_grp_alert">Уведомлять</string>
+    <string name="settings_opt_grp_prev">Предпросмотр</string>
+    
+    <string name="settings_opt_inapp_sound">Звук</string>
+    <string name="settings_opt_inapp_vibrate">Вибрация</string>
+    <string name="settings_opt_inapp_prev">Предпросмотр</string>
+    
+    <string name="settings_opt_reset">Сбросить всё</string>
+    <string name="settings_hint_reset">Отменяет все пользовательские настройки уведомлений для всех Ваших контактов и групп</string>
+    		
+	<string name="settings_btn_logout">Выйти</string>
+	
+	<string name="media_photo">СМОТРЕТЬ ФОТО</string>
+	<string name="media_location">СМОТРЕТЬ КАРТУ</string>
+	<string name="media_video">СМОТРЕТЬ ВИДЕО</string>
+	<string name="media_download">СКАЧАТЬ %.2fМБ</string>
+	<string name="media_unsupported">НЕ ПОДДЕРЖИВАЕТСЯ</string>
+
+	<string name="info_header_phone">НОМЕР ТЕЛЕФОНА</string>
+	<string name="info_header_media">SHARED MEDIA</string>
+	<string name="info_header_members">%d УЧАСТНИКОВ</string>
+	<string name="info_header_member">%d УЧАСТНИК</string>		
+	<string name="info_opt_media">Просмотр вложений</string>
+	<string name="info_opt_forward">Переслать</string>
+	<string name="info_opt_notify">Уведомления</string>
+	<string name="info_opt_sound">Звук</string>
+	
+	<string name="info_opt_share">Передать мои данные</string>
+	
+	<string name="notify_format"><Data><![CDATA[<font color=\"#e5624d\">%s</font>]]></Data></string>
+		
+	<string name="header_selected">Выбрано: %d</string>
+	
+	<string name="btn_info_chat_delete">Выйти из группы</string>
+	
+	<string name="contact_view">Просмотр в контактах</string>
+	<string name="contact_share">Передать контакт</string>
+	<string name="contact_block">Заблокировать</string>
+		
+	<string name="group_info_create"><Data><![CDATA[<b>%s</b> создал группу]]></Data></string>	
+	<string name="group_info_title"><Data><![CDATA[<b>%1$s</b> изменил заголовок группы to<br/>\"%2$s\"]]></Data></string>
+	<string name="group_info_photo_edit"><Data><![CDATA[<b>%s</b> изменил фотографию группы]]></Data></string>
+	<string name="group_info_photo_delete"><Data><![CDATA[<b>%s</b> удалил фотографию группы]]></Data></string>
+	<string name="group_info_add"><Data><![CDATA[<b>%1$s</b> заманил <b>%2$s</b> в группу]]></Data></string>
+	<string name="group_info_del"><Data><![CDATA[<b>%1$s</b> изгнал <b>%2$s</b> из группы]]></Data></string>	
+	<string name="group_info_suicide"><Data><![CDATA[<b>%s</b> покинул группу]]></Data></string>
+	
+	<string name="pref_settings_title">Настройки</string>
+	<string name="pref_settings_summary">Имя, изображение, уведомления и др.</string>
+		
+	<string name="btn_done">ГОТОВО</string>
+	<string name="btn_cancel">ОТМЕНА</string>
+	<string name="btn_set">ПРИНЯТЬ</string>	
+	<string name="btn_add_member">Добавить участника</string>
+	
+    <string name="sound_def">По умолчанию</string>
+    
+    <string name="invite_text">Пригласить друзей</string>
+    
+    <string name="hint_send">Отправить</string>
+	<string name="hint_media">Вложение</string>
+	<string name="hint_group">Отправить сообщение...</string>
+	<string name="hint_group_title">Заголовок группы</string>
+    <string name="hint_first_name">Имя</string>
+    <string name="hint_last_name">Фамилия</string>  
+    <string name="hint_not_group_admin">Вы не администратор группы</string>
+
+    <string name="msg_copy">Скопировано в буфер обмена</string>
+    <string name="msg_forwarded"><Data><![CDATA[<small><font color="#006fc8">Пересланно<br/>From <b>%s</b></font></small><br/>]]></Data></string>
+    
+	<string name="attach_photo">Сделать снимок</string>
+	<string name="attach_gallery">Галерея</string>
+	<string name="attach_video">Видео</string>
+	<string name="attach_location">Карта</string>
+	
+	<string name="phone_mobile">МОБИЛЬНЫЙ</string>
+	
+
+	
+	<string name="status_online_user">в сети</string>
+	<string name="status_online_chat"><Data><![CDATA[<font color="#9a9a9a">%1$d участников,</font> %2$d в сети]]></Data></string>	
+	<string name="status_offline_user">не в сети</string>
+	<string name="status_offline1">был только что</string>
+	<string name="status_offline2">%d минут назад</string>
+	<string name="status_offline3">1 час назад</string>
+	<string name="status_offline4">%d часов назад</string>
+	<string name="status_typing_user">печатает...</string>	
+	<string name="status_typing_chat1">%s печатает...</string>
+	<string name="status_typing_chat2">%s печатают...</string>
+	<string name="status_typing_chatN">%d участников печатают...</string>
+		
+	<string name="info_yesterday">вчера</string>
+	<string name="info_you">Вы</string>	    
+	<string name="info_photo">Фото</string>
+	<string name="info_video">Видео</string>
+	<string name="info_location">Карта</string>		
+	<string name="info_contact">Контакт</string>
+	<string name="info_document">Документ</string>
+	<string name="info_forwarded">Переслано</string>
+			
+	<string name="msg_opt_title">Сообщение</string>
+
+	<string name="btn_send_location">Отправить карту</string>
+	<string name="btn_loc_normal">Схема</string>
+	<string name="btn_loc_satellite">Спутник</string>
+	<string name="btn_loc_hybrid">Гибрид</string>
+	
+	<string name="dialog_btn_cancel">Отмена</string>
+	<string name="dialog_btn_delete">Удалить</string>
+	<string name="dialog_btn_discard">Отклонить</string>
+	<string name="dialog_btn_reset">Сброс</string>
+	<string name="dialog_btn_send">Отправить</string>
+	<string name="dialog_btn_unblock">Разблокировать</string>	
+	<string name="dialog_btn_kick">Изгнать</string>
+	<string name="dialog_title_dialog">Диалог</string>
+	<string name="dialog_title_group">Группа</string>
+	<string name="dialog_title_kick">Изгнание</string>
+    <string name="dialog_title_reset">Сброс</string>
+    <string name="dialog_title_unblock">Разблокировать</string>
+    <string name="dialog_title_media">Медиа</string>
+    <string name="dialog_unblock">Убрать контакт из чёрного списка?</string>
+    <string name="dialog_reset">Отменить все пользовательские настройки уведомлений для всех Ваших контактов и групп?</string>
+	
+	<string name="dialog_delete_dialog">Удалить диалог?</string>	
+	<string name="dialog_delete_group">Удалить и покинуть группу?</string>
+	<string name="dialog_kick">Изгнать из группы?</string>
+	<string name="dialog_send_media">Передать изображение?</string>
+	
+	<string name="choose_share_media">Передать</string>
+			
+	<string name="empty_message">Сообщений пока нет…</string>
+	<string name="empty_question">Есть вопросы о Telegram?</string>
+	
+	<string name="attach_video_record">Запись</string>
+	<string name="attach_video_choose">Галерея</string>
+	
+	<string name="photo_title">%1$d из %2$d</string>
+	
+	<string name="wp_choose_image">Фото</string>
+	<string name="wp_choose_color">Цвет</string>	
+				
+	<string-array name="msg_opt_media">
+		<item>Переслать</item>		
+		<item>Удалить</item>
+	</string-array>    
+	
+	<string-array name="msg_opt_text">
+		<item>Переслать</item>
+		<item>Копировать</item>
+		<item>Удалить</item>
+	</string-array>    
+	
+	<string name="location_dist">на расстоянии %d м</string>
+	<string name="start">Начать</string>
+    <string name="intro_title0">Telegram</string>
+    <string name="intro_title1">Быстрый</string>
+    <string name="intro_title2">Бесплатный</string>
+    <string name="intro_title3">Мощный</string>
+    <string name="intro_title4">Безопасный</string>
+    <string name="intro_title5">Cloud-Based</string>
+    <string name="intro_text0">Добро пожаловать в <![CDATA[<b>Telegram</b>]]> —<![CDATA[<br/>]]> самое быстрое приложение обмена сообщениями.<![CDATA[<br/>]]>Он бесплатен и безопасен.</string>
+    <string name="intro_text1"><![CDATA[<b>Telegram</b>]]> доставляет сообщения быстрее любых других приложений.</string>
+    <string name="intro_text2"><![CDATA[<b>Telegram</b>]]> навсегда бесплатен. Никакой рекламы. Никакой подписки.</string>
+    <string name="intro_text3"><![CDATA[<b>Telegram</b>]]> не имеет ограничений на размер медиа-вложений в чатах.</string>
+    <string name="intro_text4"><![CDATA[<b>Telegram</b>]]> защищает ваши сообщения от хакерских атак.</string>
+    <string name="intro_text5"><![CDATA[<b>Telegram</b>]]> позволяет получить доступ к сообщениям с множества устройств.</string>	
+		
+    
+	<string name="CacheTag">CACHE_TAG</string>
+</resources>
+

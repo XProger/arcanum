@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageUserInfo xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbarStyle="outsideOverlay"    
+	android:paddingTop="56dp"
+	android:paddingBottom="16dp"
+	android:clipToPadding="false"	
+	android:fadingEdge="none"
+	android:fastScrollEnabled="true"
+	android:scrollbarThumbVertical="@drawable/fastscroll_thumb_default_holo"	
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	    
+	<LinearLayout 
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp" 
+		android:layout_marginTop="8dp"
+		android:layout_gravity="center_horizontal"		
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <include layout="@layout/item_info" />
+
+		<TextView
+		    style="@style/settingsHeader"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/info_header_phone" />
+		
+		<LinearLayout		    
+		    android:layout_width="match_parent"
+		    android:layout_height="52dp"		    
+		    android:orientation="horizontal" >
+	    		    		    
+			<Button
+			    android:id="@+id/btn_share"
+				style="@style/buttonOption"
+				android:layout_width="match_parent"			
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:text="@string/info_opt_share" />		    
+		    
+		    <LinearLayout
+		        android:id="@+id/lay_phone"
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:layout_weight="1"
+		        android:layout_marginTop="8dp"
+		        android:layout_marginLeft="8dp"
+		        android:orientation="vertical" >			    					    
+			    <TextView
+			        android:id="@+id/text_phone"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:singleLine="true"/>				
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/phone_mobile"
+			        android:typeface="monospace"
+			        android:textColor="#999999"
+			        android:textAppearance="?android:attr/textAppearanceSmall"/>
+			</LinearLayout>
+				    				    
+			<Button
+			    android:id="@+id/btn_msg"
+			    android:layout_width="72dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:layout_gravity="right|center_vertical"
+			    android:paddingRight="4dp"
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="8dp"			    
+			    android:background="@drawable/btn_option"
+			    android:drawableLeft="@drawable/divider_vert"
+			    android:drawableRight="@drawable/ic_profile_send_message" />		    
+		</LinearLayout>
+		
+	    <include layout="@layout/item_info_ex" />		
+			    
+	</LinearLayout>
+</com.xproger.arcanum.PageUserInfo>
+	

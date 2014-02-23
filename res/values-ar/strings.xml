@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arcanum</string>
+    
+    <string name="none"></string>
+    <string name="auth_title_phone">رقم هاتفك المحمول</string>
+    <string name="auth_title_code">رمز التفعيل</string>
+    <string name="auth_title_name">اسمك</string>
+    <string name="auth_hint_phone">يرجى التحقق من صحة رمز بلدك وإدخال رقم هاتفك المحمول</string>
+    <string name="auth_hint_code">تم إرسال رسالة قصيرة تحتوي على رمز التفعيل الخاص بك %s</string>
+    
+    <string name="auth_hint_call">سنتصل بك خلال %s.</string>
+
+    <string name="auth_hint_name">قم بإدخال اسمك وصورتك</string>
+    <string name="auth_btn_next">التالي</string>
+    <string name="auth_lbl_code">رمز التفعيل</string>
+        
+    <string name="page_title_dialogs">Arcanum</string>
+    <string name="page_title_contacts">اختر جهة اتصال</string>
+    <string name="page_title_settings">الإعدادات</string>
+    <string name="page_title_share_location">مشاركة الموقع</string>
+	<string name="page_title_location">موقعي</string>    
+    <string name="page_title_group">مجموعة جديدة</string>
+	<string name="page_title_user_info">معلومات جهة الاتصال</string>
+	<string name="page_title_chat_info">معلومات المجموعة</string>
+	<string name="page_title_forward">إعادة توجيه</string>
+	<string name="page_title_share">أرسل جهة الاتصال</string>
+	<string name="page_title_media">Media in Chat</string>  
+	<string name="page_title_wallpaper">Chat Background</string>
+	
+    <string name="chat_btn_settings">الإعدادات</string>
+
+    <string name="btn_compose_contact">جهات الاتصال</string>
+    <string name="btn_compose_group">مجموعة جديدة</string>
+    
+    <string name="settings_header_phone">رقم هاتفك</string>
+    <string name="settings_header_options">الإعدادات</string>
+    <string name="settings_header_support">SUPPORT</string>
+    
+    <string name="settings_header_notify_message">إشعارات الرسائل</string>
+    <string name="settings_header_notify_group">إشعارات المجموعات</string>
+    <string name="settings_header_notify_inapp">إشعارات داخل التطبيق</string>
+    <string name="settings_header_notify_reset">إعادة تعيين</string>
+    
+    <string name="settings_opt_save_media">حفظ الصور الواردة</string>
+    <string name="settings_opt_notify">الإشعارات والأصوات</string>
+    <string name="settings_opt_blocked">جهات الاتصال المحظورة</string>
+    <string name="settings_opt_wallpaper">Chat Background</string>
+    <string name="settings_opt_question">اسأل سؤالًا</string>
+    
+    <string name="settings_opt_msg_alert">التنبيه</string>
+    <string name="settings_opt_msg_prev">معاينة الرسالة</string>
+    
+    <string name="settings_opt_grp_alert">التنبيه</string>
+    <string name="settings_opt_grp_prev">معاينة الرسالة</string>
+    
+    <string name="settings_opt_inapp_sound">أصوات داخل التطبيق</string>
+    <string name="settings_opt_inapp_vibrate">اهتزاز داخل التطبيق</string>
+    <string name="settings_opt_inapp_prev">معاينة داخل التطبيق</string>
+    
+    <string name="settings_opt_reset">إعادة تعيين كافة الإشعارات</string>
+    <string name="settings_hint_reset">إعادة تعيين كافة إعدادات الإشعارات لجميع جهات الاتصال والمجموعات</string>
+    		
+	<string name="settings_btn_logout">تسجيل خروج</string>
+	
+	<string name="media_photo">عرض الصورة</string>
+	<string name="media_location">عرض الموقع</string>
+	<string name="media_video">مشاهدة المقطع المرئي</string>
+	<string name="media_download">%.2fMB تحميل</string>
+	<string name="media_unsupported">UNSUPPORTED</string>
+
+	<string name="info_header_phone">الهاتف</string>
+	<string name="info_header_media">عدد الوسائط المشتركة</string>
+	<string name="info_header_members">%d أعضاء</string>
+	<string name="info_header_member">%d أعضاء</string>		
+	<string name="info_opt_media">Media in chat</string>
+	<string name="info_opt_forward">Forward</string>
+	<string name="info_opt_notify">الإشعارات</string>
+	<string name="info_opt_sound">الصوت</string>
+	
+	<string name="info_opt_share">Share My Contact Info</string>
+	
+	<string name="notify_format"><Data><![CDATA[<font color=\"#e5624d\">%s</font>]]></Data></string>
+		
+	<string name="header_selected">%d</string>
+	
+	<string name="btn_info_chat_delete">مغادرة المجموعة وحذفها</string>
+	
+	<string name="contact_view">جهات الاتصال</string>
+	<string name="contact_share">أرسل جهة الاتصال</string>
+	<string name="contact_block">حظر جهة الاتصال</string>
+		
+	<string name="group_info_create"><Data><![CDATA[<b>%s</b> قام بإنشاء المجموعة<]]></Data></string>	
+	<string name="group_info_title"><Data><![CDATA[<b>%1$s</b> قام بتغيير اسم المجموعة إلى<br/>\"%2$s\"]]></Data></string>
+	<string name="group_info_photo_edit"><Data><![CDATA[<b>%s</b> قام بتغيير صورة المجموعة]]></Data></string>
+	<string name="group_info_photo_delete"><Data><![CDATA[<b>%s</b> قام بإزالة صورة المجموعة]]></Data></string>
+	<string name="group_info_add"><Data><![CDATA[<b>%1$s</b> قام بإضافة <b>%2$s</b>]]></Data></string>
+	<string name="group_info_del"><Data><![CDATA[<b>%1$s</b> قام بإخراج <b>%2$s</b>]]></Data></string>	
+	<string name="group_info_suicide"><Data><![CDATA[<b>%s</b> غادر المجموعة]]></Data></string>
+	
+	<string name="pref_settings_title">الإعدادات</string>
+	<string name="pref_settings_summary">Profile name, picture, notifications, etc.</string>
+		
+	<string name="btn_done">تم</string>
+	<string name="btn_cancel">إلغاء</string>
+	<string name="btn_set">تم</string>	
+	<string name="btn_add_member">إضافة مشترك</string>
+	
+    <string name="sound_def">Default</string>
+    
+    <string name="invite_text">Invite Friends</string>
+    
+    <string name="hint_send">إرسال</string>
+	<string name="hint_media">Media</string>
+	<string name="hint_group">إرسال الرسالة إلى...</string>
+	<string name="hint_group_title">أدخل سم للمجموعة</string>
+    <string name="hint_first_name">الاسم الأول</string>
+    <string name="hint_last_name">اسم العائلة</string>  
+    <string name="hint_not_group_admin">You are not group admin</string>
+
+    <string name="msg_copy">Copied to clipboard</string>
+    <string name="msg_forwarded"><Data><![CDATA[<small><font color="#006fc8">الرسالة المعاد توجيهها<br/>From <b>%s</b></font></small><br/>]]></Data></string>
+    
+	<string name="attach_photo">التقط صورة</string>
+	<string name="attach_gallery">صورة</string>
+	<string name="attach_video">مقطع مرئي</string>
+	<string name="attach_location"> موقع</string>
+	
+	<string name="phone_mobile">الهاتف المحمول</string>
+	
+
+	
+	<string name="status_online_user">متصل</string>
+	<string name="status_online_chat"><Data><![CDATA[<font color="#9a9a9a">%1$d أعضاء,</font> %2$d متصل]]></Data></string>	
+	<string name="status_offline_user">غير متصل</string>
+	<string name="status_offline1">آخر ظهور</string>
+	<string name="status_offline2">%d في</string>
+	<string name="status_offline3">1 في</string>
+	<string name="status_offline4">%d في</string>
+	<string name="status_typing_user">جاري الكتابة… </string>	
+	<string name="status_typing_chat1">%s يكتب… </string>
+	<string name="status_typing_chat2">%s يكتبون… </string>
+	<string name="status_typing_chatN">%d يكتبون… </string>
+		
+	<string name="info_yesterday">أمس</string>
+	<string name="info_format_media"><Data><![CDATA[<font color="#006fc8">%s</font>]]></Data></string>
+	<string name="info_format_online"><Data><![CDATA[<font color="#006fc8">%s</font>]]></Data></string>
+	<string name="info_format_offline"><Data><![CDATA[<font color="#9a9a9a">%s</font>]]></Data></string>	    
+	<string name="info_you">أنت</string>	    
+	<string name="info_photo">صورة</string>
+	<string name="info_video">مقطع مرئي</string>
+	<string name="info_location">موقع</string>		
+	<string name="info_contact">جهة اتصال</string>
+	<string name="info_document">Document</string>
+	<string name="info_forwarded">الرسالة المعاد توجيهها</string>
+			
+	<string name="msg_opt_title">الرسالة</string>
+
+	<string name="btn_send_location">أرسل موقعك</string>
+	<string name="btn_loc_normal">الخريطة</string>
+	<string name="btn_loc_satellite">قمر صناعي</string>
+	<string name="btn_loc_hybrid">هجين</string>
+	
+	<string name="dialog_btn_cancel">إلغاء</string>
+	<string name="dialog_btn_delete">حذف</string>
+	<string name="dialog_btn_discard">Discard</string>
+	<string name="dialog_btn_reset">إعادة تعيين</string>
+	<string name="dialog_btn_send">إرسال</string>
+	<string name="dialog_btn_unblock">إلغاء الحظر</string>	
+	<string name="dialog_btn_kick">Kick</string>
+	<string name="dialog_title_dialog">الدردشات</string>
+	<string name="dialog_title_group">الدردشات</string>
+	<string name="dialog_title_kick">Kick</string>
+    <string name="dialog_title_reset">إعادة تعيين</string>
+    <string name="dialog_title_unblock">إلغاء الحظر</string>
+    <string name="dialog_title_media">Media</string>
+    <string name="dialog_unblock">إلغاء الحظر</string>
+    <string name="dialog_reset">إعادة تعيين كافة إعدادات الإشعارات لجميع جهات الاتصال والمجموعات</string>
+	
+	<string name="dialog_delete_dialog">هل تريد حذف هذه الدردشة؟?</string>	
+	<string name="dialog_delete_group">هل تريد حذف هذه الدردشة؟</string>
+	<string name="dialog_kick">إخراج من المجموعة</string>
+	<string name="dialog_send_media">أرفق?</string>
+	
+	<string name="choose_share_media">عدد الوسائط المشتركة</string>
+			
+	<string name="empty_message">لا توجد رسائل بعد…</string>
+	<string name="empty_question">هل يوجد لديك سؤال\nحول تيليجرام؟</string>
+	
+	<string name="attach_video_record">من الكاميرا</string>
+	<string name="attach_video_choose">صورة</string>
+	
+	<string name="photo_title">%1$d of %2$d</string>
+	
+	<string name="wp_choose_image">Image</string>
+	<string name="wp_choose_color">Color</string>	
+				
+	<string name="location_dist">%d متر يبعد</string>
+	<string name="start">إبدأ المراسلة</string>
+	
+    <string name="intro_title0">تيليجرام</string>
+    <string name="intro_title1">سريع</string>
+    <string name="intro_title2">مجاني</string>
+    <string name="intro_title3">قوي</string>
+    <string name="intro_title4">آمن</string>
+    <string name="intro_title5">مرتبط بالسحاب</string>
+    <string name="intro_text0">مرحبا بكم في <![CDATA[<b>تيليجرام</b>]]> —<![CDATA[<br/>]]>أسرع تطبيق مراسلة في العالم. <![CDATA[<br/>]]>مجاني وآمن.</string>
+    <string name="intro_text1"><![CDATA[<b>تيليجرام</b>]]> يوصل الرسائل بسرعة أفضل من أي تطبيق آخر.</string>
+    <string name="intro_text2"><![CDATA[<b>تيليجرام</b>]]> مجاني للأبد. بدون أية إعلانات. وبدون رسوم إشتراك.</string>
+    <string name="intro_text3"><![CDATA[<b>تيليجرام</b>]]> لا يفرض عليك حدود لحجم الوسائط والمحادثات.</string>
+    <string name="intro_text4"><![CDATA[<b>تيليجرام</b>]]> يحمي الرسائل الخاصة بك من هجمات المخترقين.</string>
+    <string name="intro_text5"><![CDATA[<b>تيليجرام</b>]]> يمكنك الوصول إلى الرسائل الخاصة بك من أجهزة متعددة.</string>	
+								
+				
+	<string-array name="msg_opt_media">
+		<item>إعادة توجيه</item>		
+		<item>Delete</item>
+	</string-array>    
+	
+	<string-array name="msg_opt_text">
+		<item>إعادة توجيه</item>
+		<item>نسخ</item>
+		<item>حذف</item>
+	</string-array>    
+   
+
+	<string name="CacheTag">CACHE_TAG</string>
+</resources>
+

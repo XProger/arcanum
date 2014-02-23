@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">    
+	<item android:id="@+id/btn_attach_photo"
+	    android:icon="@drawable/ic_attach_photo"
+	    android:title="@string/attach_photo"/>
+		
+	<item android:id="@+id/btn_attach_gallery"
+	    android:icon="@drawable/ic_attach_gallery" 
+	    android:title="@string/attach_gallery"/>
+
+	<item 
+	    android:icon="@drawable/ic_attach_video" 
+	    android:title="@string/attach_video">
+	    <menu>
+			<item android:id="@+id/btn_attach_video_record"	android:title="@string/attach_video_record"/>
+			<item android:id="@+id/btn_attach_video_choose"	android:title="@string/attach_video_choose"/>
+	    </menu>   
+	</item>
+
+	
+	<item android:id="@+id/btn_attach_location"
+	    android:icon="@drawable/ic_attach_location" 
+	    android:title="@string/attach_location"/>			
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="48dp"	
+    android:paddingLeft="8dp"	    
+    android:paddingRight="8dp"
+    android:background="@drawable/btn_option"
+    android:clickable="true"
+    android:orientation="horizontal">			
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:duplicateParentState="true"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="@drawable/txt_black"
+	    android:text="@string/info_opt_sound" />	
+	<TextView
+	    android:id="@+id/text_sound"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:duplicateParentState="true"
+	    android:gravity="right"
+	    android:paddingLeft="8dp"
+		android:typeface="monospace"			    
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="@drawable/txt_blue"
+	    android:singleLine="true" />	
+</LinearLayout>		
+	
+	

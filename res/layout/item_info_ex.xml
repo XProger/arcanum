@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+	<TextView
+	    style="@style/settingsHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/settings_header_options" />
+	
+	<CheckBox
+	    android:id="@+id/btn_opt_notify"
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+  		android:drawableBottom="@drawable/divider"   
+	    android:text="@string/info_opt_notify" />	
+	    	    	
+	<include android:id="@+id/btn_opt_sound" layout="@layout/item_sound" />
+	
+	<TextView
+	    style="@style/settingsHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/info_header_media" />
+	
+	<LinearLayout
+		android:id="@+id/btn_opt_media"
+		android:layout_width="match_parent"
+	    android:layout_height="48dp"	
+	    android:paddingLeft="8dp"
+	    android:paddingRight="8dp"
+	    android:background="@drawable/btn_option"
+	    android:clickable="true"
+	    android:onClick="onMenuClick"
+	    android:orientation="horizontal">			
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:textColor="@drawable/txt_black"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:text="@string/info_opt_media" />	
+		<TextView
+		    android:id="@+id/text_media"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:textColor="@drawable/txt_blue"
+		    android:gravity="right"
+			android:typeface="monospace"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />	
+	</LinearLayout>
+</LinearLayout>
+		
+	

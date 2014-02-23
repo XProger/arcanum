@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageSettingsNotify xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbarStyle="outsideOverlay"
+	android:fadingEdge="none"    
+	android:paddingTop="56dp"	
+	android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	    
+	<LinearLayout 
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp" 
+		android:layout_gravity="center_horizontal"		
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:orientation="vertical" >    
+	    
+		<LinearLayout 
+		    android:id="@+id/lay_users"
+			android:layout_gravity="center_horizontal"		
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"	    
+		    android:orientation="vertical" >   
+		    
+			<TextView
+			    style="@style/settingsHeader"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/settings_header_notify_message" />
+	
+			<CheckBox
+			    android:id="@+id/btn_alert"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:drawableBottom="@drawable/divider"		    
+			    android:text="@string/settings_opt_msg_alert"/>
+			
+			<CheckBox
+			    android:id="@+id/btn_prev"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"					    
+			    android:drawableBottom="@drawable/divider"
+			    android:text="@string/settings_opt_msg_prev" 
+			    android:textAppearance="?android:attr/textAppearanceMedium"/>		
+			
+			<include android:id="@+id/btn_sound" layout="@layout/item_sound" />
+		</LinearLayout>			
+				
+		<LinearLayout 
+		    android:id="@+id/lay_chats"
+			android:layout_gravity="center_horizontal"		
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"	    
+		    android:orientation="vertical" >   
+				
+			<TextView
+			    style="@style/settingsHeader"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="8dp"
+			    android:text="@string/settings_header_notify_group" />
+			
+			<CheckBox
+			    android:id="@+id/btn_alert"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp" 
+			    android:drawableBottom="@drawable/divider"
+			    android:text="@string/settings_opt_grp_alert" />
+			
+			<CheckBox
+			    android:id="@+id/btn_prev"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp" 
+			    android:drawableBottom="@drawable/divider"
+			    android:text="@string/settings_opt_grp_prev" />		
+	    		
+			<include android:id="@+id/btn_sound" layout="@layout/item_sound" />
+		</LinearLayout>	
+
+		<TextView
+		    style="@style/settingsHeader"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:text="@string/settings_header_notify_inapp" />
+		
+		<CheckBox
+		    android:id="@+id/btn_inapp_sound"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:drawableBottom="@drawable/divider"  
+		    android:text="@string/settings_opt_inapp_sound" />	
+		    
+		<CheckBox
+		    android:id="@+id/btn_inapp_vibrate"
+		    android:layout_width="match_parent"
+			android:layout_height="48dp"  
+		    android:drawableBottom="@drawable/divider"
+		    android:text="@string/settings_opt_inapp_vibrate" />	
+		    
+		<CheckBox
+		    android:id="@+id/btn_inapp_prev"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:text="@string/settings_opt_inapp_prev" />							
+		
+		<TextView
+		    style="@style/settingsHeader"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:text="@string/settings_header_notify_reset" />	
+		
+		<LinearLayout
+		    android:id="@+id/btn_reset"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="8dp"
+		    android:layout_marginBottom="8dp"	    
+		    android:background="@drawable/btn_option"
+		    android:clickable="true"
+		    android:orientation="vertical">			
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="#010101"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:text="@string/settings_opt_reset" />	
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textColor="#404040"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:text="@string/settings_hint_reset" />
+		</LinearLayout>		
+
+
+	</LinearLayout>
+</com.xproger.arcanum.PageSettingsNotify>
+	

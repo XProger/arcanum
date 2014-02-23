@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageAuth xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<ViewFlipper 
+		android:id="@+id/flipper"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">		
+		<include layout="@layout/auth_phone" />
+		<include layout="@layout/auth_code" />
+		<include layout="@layout/auth_name" />
+	</ViewFlipper>
+
+    <Button
+        android:id="@+id/btn_next"
+        style="@style/buttonNext"
+        android:onClick="onMenuClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp" />	
+		
+</com.xproger.arcanum.PageAuth>

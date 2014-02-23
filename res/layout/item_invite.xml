@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/invite_contact"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:clickable="true"
+	android:onClick="onMenuClick"
+	android:background="@drawable/btn_done_color"
+    android:padding="8dp" >
+    
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp" 
+        android:src="@drawable/ic_ab_share"
+        android:scaleType="centerCrop"/>
+    
+	<TextView 
+		android:text="@string/invite_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginLeft="16dp" 
+		android:textColor="#006fc8"
+		android:textAppearance="@android:style/TextAppearance.Medium" />
+		
+</LinearLayout>

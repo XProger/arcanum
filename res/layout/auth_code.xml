@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView	    	    
+	    style="@style/sectionHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="@string/auth_title_code"
+	    android:typeface="monospace"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/auth_hint_code"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="16dp"
+	    android:layout_marginRight="16dp"
+	    android:layout_marginTop="8dp"
+	    android:text="@string/auth_hint_code"
+	    android:typeface="monospace"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+	    android:id="@+id/edit_code"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="32dp"
+	    android:layout_marginRight="32dp"
+	    android:layout_marginTop="8dp"
+	    android:ellipsize="start"
+	    android:ems="10"
+	    android:imeOptions="actionDone"
+	    android:gravity="center_horizontal"
+	    android:hint="@string/auth_lbl_code"
+	    android:inputType="text|number" >
+
+	    <requestFocus />
+	</EditText>
+
+	<TextView
+	    android:id="@+id/auth_hint_call"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="16dp"
+	    android:text="@string/auth_hint_call"	
+	    android:typeface="monospace"    
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

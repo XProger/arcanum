@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.PageWallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6e4ef">
+    
+    <ImageView
+        android:id="@+id/preview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+   	    android:background="#d6e4ef"
+	    android:scaleType="centerCrop"/>
+    
+    <LinearLayout        
+        android:id="@+id/lay_custom"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">	    
+		<TextView 
+		    android:id="@+id/btn_choose_image"
+		    style="@style/buttonMsg"
+		    android:onClick="onMenuClick"
+		    android:textAppearance="@android:style/TextAppearance.Medium"
+		    android:layout_width="128dp"
+		    android:text="@string/wp_choose_image"
+		    android:layout_marginRight="8dp"/>		
+		<TextView 
+		    android:id="@+id/btn_choose_color"
+		    style="@style/buttonMsg"
+		    android:onClick="onMenuClick"
+		    android:textAppearance="@android:style/TextAppearance.Medium"
+		    android:layout_width="128dp"
+		    android:text="@string/wp_choose_color"
+		    android:layout_marginLeft="8dp"/>
+	</LinearLayout>
+        
+	
+	<com.xproger.arcanum.GalleryView
+	    android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="128dp"	    
+	    android:layout_above="@id/footer"
+	    android:layout_centerHorizontal="true"
+	    android:animationDuration="150"
+	    android:unselectedAlpha="1"
+	    android:spacing="0dip"	    
+	    android:fadingEdge="none" />
+
+    <View
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_above="@id/footer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-2dp"                
+        android:background="@drawable/wallpaper_selector"/>		
+	
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <TextView             
+            android:id="@+id/btn_cancel"
+            android:clickable="true"
+            android:onClick="onMenuClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"            
+            android:background="@drawable/btn_option"
+	    	android:textAppearance="@android:style/TextAppearance.Medium"
+	    	android:gravity="center"
+	    	android:text="@string/btn_cancel"/>
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/divider_vert"/>
+        <FrameLayout
+            android:id="@+id/btn_set"
+            android:clickable="true"
+            android:onClick="onMenuClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_option">
+	        <TextView             
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:drawablePadding="8dp"		    		            
+		    	android:textAppearance="@android:style/TextAppearance.Medium"
+		    	android:drawableLeft="@drawable/ic_ab_done_gray"
+		    	android:text="@string/btn_set"/>
+        </FrameLayout>
+    </LinearLayout>
+		
+</com.xproger.arcanum.PageWallpaper>

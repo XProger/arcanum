@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General Settings" />
+    <Preference
+		android:title="@string/pref_settings_title"
+		android:summary="@string/pref_settings_summary">
+	    <intent             	        
+			android:targetPackage="com.xproger.arcanum"
+			android:targetClass="com.xproger.arcanum.Main"
+			android:action="com.xproger.arcanum.SETTINGS">
+			<extra android:name="page" android:value="settings" />
+		</intent>
+	</Preference>     
+</PreferenceScreen>

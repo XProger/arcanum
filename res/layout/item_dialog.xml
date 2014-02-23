@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xproger.arcanum.DialogItem xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"	
+	android:padding="8dp">
+	    
+    <com.xproger.arcanum.RoundedImageView
+        android:id="@+id/picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/none"
+        android:src="@drawable/user_placeholder_blue" />
+    
+	<LinearLayout android:id="@+id/lay_title"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/picture"
+		android:layout_marginLeft="8dp"
+		android:orientation="horizontal">    
+    
+	    <TextView
+	        android:id="@+id/title"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+	        android:id="@+id/time"
+			android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:typeface="monospace"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#006fc8"/>    
+    </LinearLayout>
+    
+	<LinearLayout
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/picture"
+		android:layout_below="@id/lay_title"		
+		android:layout_marginLeft="8dp"
+		android:orientation="horizontal">    
+    
+	    <TextView
+	        android:id="@+id/info"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="@string/test_msg"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        android:typeface="monospace"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#808080" />  
+	
+	    <TextView
+	        android:id="@+id/badge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:layout_marginTop="4dp"        
+	        android:background="@drawable/dialogs_badge"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#ffffff"
+	        android:textSize="14sp" />  
+    </LinearLayout>	
+
+</com.xproger.arcanum.DialogItem>
